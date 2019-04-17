@@ -1,0 +1,105 @@
+/*
+ * STYLES ADDED BY RESIDENTE DE TI DAVID OSORIO
+ * ENERO - JUNIO 2019
+ */
+
+body, html {
+  height: 100%;
+	/* background: linear-gradient(to bottom, whitesmoke, #f1f1f1); */
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../images/bg.jpg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fff;
+}
+
+.bg:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom, dimgray, lightgray);
+  opacity: 0.1;
+}
+
+.app-img {
+  float: left;
+  margin-bottom: 0;
+}
+
+.app-title {
+  color: white;
+  font-size: 50px;
+  font-weight: 500;
+  margin-top: 0.55rem;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.vl {
+  border-left: 6px solid #ffc107;
+  border-radius: 10px;
+  height: 50px;
+  margin: 1.5rem 1.5rem 0 1.5rem;
+}
+
+/*#pc-navbar {
+  margin-bottom: 1%;
+}*/
+
+.container1 {
+  background: #929395;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-row {
+  margin: 15px !important;
+}
+
+.table-title {
+  text-align: center;
+}
+
+.my-table {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.my-table tbody td:hover {
+  background-color: rgba(93, 115, 136, .9);
+  color: white;
+}
+
+.tbl-blue-th {
+  background-color: #527589;
+  color: white;
+  font-size: 1.2rem;
+}
+
+tbody {
+  font-size: 6rem;
+}
+
+@media all and (max-width: 800px) {
+  .app-title {
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 1400px) {
+  tbody {
+    font-size: 3rem;
+  }
+}
