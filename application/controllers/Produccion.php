@@ -15,5 +15,16 @@ class Produccion extends CI_Controller {
 	{
 		$this->load->view('home');
 	}
+
+	// Actualizar 4 tablas cada 2 minutos mediante petición AJAX desde tablas.js
+	public function get_produccion()
+	{
+		// Bloquear acceso directo a la función o mediante URL en el navegador
+		if($this->input->server('REQUEST_METHOD') != 'POST') {
+			redirect('Produccion', 'refresh');
+		}
+		$data = $this->pm->get_produccion();
+		echo json_encode($data);
+	}
 }
 ?>

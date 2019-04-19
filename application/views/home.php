@@ -7,7 +7,7 @@
     <div id="pc-navbar">
         <div class="container1">
             <div class="row justify-content-center">
-                <p class="app-img"><img class="img-responsive" src="images/logo_peco.png"></p>
+                <p class="app-img"><img class="img-responsive" src="images/logo_peco.jpg"></p>
                 <div class="vl"></div>
                 <p class="app-title">PRODUCCIÓN ACTUAL</p>
             </div>
@@ -16,7 +16,7 @@
     <div class="row my-row">
       <div class="col-lg-6 col-md-6 col-sm-6">
         <h1 class="table-title">Movimiento de hoy</h1>
-        <table class="table table-bordered my-table">
+        <table class="table table-bordered my-table my-table-vh">
           <thead class="tbl-blue-th">
             <tr>
               <th width="33%">Real</th>
@@ -26,16 +26,16 @@
           </thead>
           <tbody id="tbl-hoy">
             <tr>
-              <td width="33%">55</td>
-              <td width="33%">141</td>
-              <td width="34%">12,470</td>
+              <td width="33%"></td>
+              <td width="33%"></td>
+              <td width="34%"></td>
             </tr>
           </tbody>
         </table>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-6">
         <h1 class="table-title">Movimiento de ayer</h1>
-        <table class="table table-bordered my-table">
+        <table class="table table-bordered my-table my-table-vh">
           <thead class="tbl-blue-th">
             <tr>
               <th width="33%">Real</th>
@@ -45,9 +45,9 @@
           </thead>
           <tbody id="tbl-ayer">
             <tr>
-              <td width="33%">55</td>
-              <td width="33%">141</td>
-              <td width="34%">12,470</td>
+              <td width="33%"></td>
+              <td width="33%"></td>
+              <td width="34%"></td>
             </tr>
           </tbody>
         </table>
@@ -66,9 +66,9 @@
           </thead>
           <tbody id="tbl-mensual">
             <tr>
-              <td width="33%">55</td>
-              <td width="33%">141</td>
-              <td width="34%">12,470</td>
+              <td width="33%"></td>
+              <td width="33%"></td>
+              <td width="34%"></td>
             </tr>
           </tbody>
         </table>
@@ -85,9 +85,9 @@
           </thead>
           <tbody id="tbl-anual">
             <tr>
-              <td width="33%">55</td>
-              <td width="33%">141</td>
-              <td width="34%">12,470</td>
+              <td width="33%"></td>
+              <td width="33%"></td>
+              <td width="34%"></td>
             </tr>
           </tbody>
         </table>

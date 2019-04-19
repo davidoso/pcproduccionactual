@@ -10,5 +10,6 @@
 <!-- Bootstrap core CSS -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <!-- Custom JavaScript for this project -->
-    <script type="text/javascript" src="js/tables.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/tablas.js"></script>
 <!--===============================================================================================-->
